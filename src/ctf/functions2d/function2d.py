@@ -60,7 +60,7 @@ class Function2D():
         cost_norm = np.log(cost - np.min(cost) + 1)
         ## Plot
         plt.figure()
-        plt.contourf(X0, X1, cost_norm, 50)
+        plt.contourf(X0, X1, cost_norm, 50, cmap=plt.cm.Wistia)
         plt.scatter(self.min[..., 0], self.min[..., 1], c='w', marker='x')
         plt.grid()
         plt.title(self.latex_name + "\n" + self.latex_cost)
