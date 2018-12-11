@@ -48,10 +48,18 @@ In many circumstances, mathematical models of physical systems becomes so comple
 	\item{Using randomized optimization algorithm(s) to solve NP-hard problem(s) and (if possible) compare with the deterministic algorithms}
 \end{enumerate}
 
+Fig. \ref{fig} shows a summary of the types of probelems and algorithms which may be covered in this project.
+
+\begin{figure}[tbp]
+\centerline{\includegraphics[width=85mm]{flowchart.png}}
+\caption{Various types of optimization problems and algorithms}
+\label{fig}
+\end{figure}
+
 % \begin{table}[htbp]
-% \caption{Table Type Styles}
+% \caption{Expected contributions}
 % \begin{center}
-% \begin{tabular}{|c|c|c|c|}
+% \begin{tabular}{|c|c|}
 % \hline
 % \textbf{Table}&\multicolumn{3}{|c|}{\textbf{Table Column Head}} \\
 % \cline{2-4} 
@@ -65,20 +73,14 @@ In many circumstances, mathematical models of physical systems becomes so comple
 % \end{center}
 % \end{table}
 
-\begin{figure}[htbp]
-\centerline{\includegraphics[width=85mm]{flowchart.png}}
-\caption{Various types of optimization problems and algorithms}
-\label{fig}
-\end{figure}
-
-\section{Code}
-I intend to use Python for this project. Fig. \ref{fig1} shows a screenshot of the project template folder. Following is the description of the contents of the template folder:
-
-\begin{figure*}[htbp]
+\begin{figure*}[tbp]
 \centerline{\includegraphics[width=130mm]{../../results/Capture.PNG}}
 \caption{Project template directory}
 \label{fig1}
 \end{figure*}
+
+\section{Code}
+I intend to use Python for this project. Fig. \ref{fig1} shows a screenshot of the project template folder. Following is the description of the contents of the template folder:
 
 \begin{description}[style=multiline,leftmargin=6em]
 	\item[\textbf{.git}]{contains Git versioning information.}
@@ -90,6 +92,7 @@ I intend to use Python for this project. Fig. \ref{fig1} shows a screenshot of t
 	\item[\textbf{CITATION}] contains the information about how to cite this project.
 	\item[\textbf{README}] brief project README document.
 	\item[\textbf{LICENSE}] contains copyright and licensing information of the project.
+	\item[\textbf{req...s.txt}] required for automatic deployment.
 \end{description}
 
 \section{Data}
@@ -98,7 +101,7 @@ For this project I have searched for problems/functions to optimize. Here I am l
 \subsection{Differentiable/Deterministic Problems}
 This classes of functions will be obtained from Wikipedia \cite{b3}. Some examples are shown in Fig. \ref{testfunfig}
 
-\begin{figure}
+\begin{figure}[tbp]
 \begin{tabular}{cc}
   \includegraphics[width=35mm]{Rosenbrock} &   \includegraphics[width=35mm]{Beale} \\
 (a) Rosenbrock's function & (b) Beale's function \\[6pt]
