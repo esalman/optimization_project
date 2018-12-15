@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Methods}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Continuous Testing Functions for Optimization}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Basin-hopping Algorithm}{section.2}% 4
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Heuristics}{subsection.2.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Notes on the SciPy Implementation}{subsection.2.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{Experiments}{section.2}% 7
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Using different local optimization methods}{subsection.2.3}% 8
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Cross-validation for T \046 stepsize}{subsection.2.3}% 9
+\BOOKMARK [3][-]{subsubsection.2.3.3}{Comparing Accuracy \046 Efficiency}{subsection.2.3}% 10
+\BOOKMARK [3][-]{subsubsection.2.3.4}{Comparing Robustness}{subsection.2.3}% 11
+\BOOKMARK [1][-]{section.3}{Results}{}% 12
+\BOOKMARK [2][-]{subsection.3.1}{Using different local optimization methods}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.2}{Cross-validation for T \046 stepsize}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.3}{Comparing Accuracy \046 Efficiency}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.4}{Comparing Robustness}{section.3}% 16
+\BOOKMARK [1][-]{section.4}{Discussion}{}% 17
+\BOOKMARK [2][-]{subsection.4.1}{Future Directions}{section.4}% 18
+\BOOKMARK [1][-]{section*.1}{References}{}% 19
